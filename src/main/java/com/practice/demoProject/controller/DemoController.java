@@ -11,5 +11,9 @@ public class DemoController {
 		return "demo api";
 	}
 	
+	@GetMapping("/demo1")
+	public String demo1() {
+		return "demo api";
+	}
 	
 }
