@@ -10,10 +10,11 @@ public class DemoController {
 	public String demo() {
 		return "demo api";
 	}
-	
+
+	//TODO need to implement
 	@GetMapping("/demo1")
 	public String demo1() {
-		return "demo api";
+		return "demo api hello";
 	}
 	
 }
